@@ -1,0 +1,26 @@
+.list {
+  border: 2px dotted #ffffff;
+  border-radius: 1rem;
+  padding: 2rem 2rem 1rem 2rem;
+  background-color: #ffffff2c;
+  &__item {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ffffff;
+    background: #19067788;
+  }
+}
+
+.button {
+  background-color: #f7d8d8 !important;
+  color: #000;
+  transition: all .3s ease-in-out;
+  &:hover {
+    background-color: #000000 !important;
+    color: #fff;
+  }
+  &:active {
+    background-color: #414141 !important;
+    color: #fff;
+  }
+}
